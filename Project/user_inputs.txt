@@ -1,0 +1,11 @@
+Transformational AI: Analyzing Ecommerce Large Datasets for Machine Learning
+Completed by: Alfred Thompson
+—————————————-
+
+Question 1: We have 100 rows with 10 columns each. The data has an index with values ranging from 0 to 99. The data has 10 columns: a 'rating' column as float, a 'title' column as string, a 'text' column as string, an 'images' column as string, an 'asin' column as string, a 'parent_asin' column as string, an 'user_id' column as string, a 'timestamp' column as integer, a 'helpful_vote' column as integer, and a 'verified_purchase' column as boolean. All columns are non-null for these rows.
+Question 2: The DataFrame head() returns 5 rows in plaintext format. The columns are broken up in the output making it a bit more difficult to distinguish the rows compared to the tabular format shown in rich HTML. It is quicker to scroll the output vertically compared to the tabular format.
+Question 3: We increased the number of rows returned by head(). We changed the maximum width of the display to 1000 characters to avoid awkward line breaks. We limited each column's output to 50 characters to make the all fit within the display limit.
+Question 4: The Reviews Metadata dataset has 16 columns compared to the 10 columns the Reviews dataset has. Both datasets have columns 'title' and 'parent_asin' in common. The Reviews Metadata dataset takes up about 5K more in storage compared to the Reviews dataset (12.6 KB vs 7.3 KB).
+Question 5: The info() method is the most helpful as it includes the information returned by .columns and .dtypes fields of the DataFrame in the same output.
+Question 6: The lower price products get the most ratings.
+Question 7: Most ratings are 4.5 for lowest priced, top rated items. Items priced 200 and above have higher ratings (4.8 and higher) but fewer number of ratings.
